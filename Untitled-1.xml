@@ -1,0 +1,18 @@
+import React from "react";
+
+import  ReactDOM from "react-dom";
+
+import App from './App';
+
+import "./index.css";
+
+ReactDOM.render(
+<>
+    <h1 className="heading_style">List of top 5 Netflix Series in 2023 </h1>
+<App imgsrc="https://wallpapercave.com/wp/wp4056410.jpg" title="A Netflix Original Series" Mname="DARK" links="https://www.netflix.com/pk/title/80100172" />
+<App imgsrc="https://img.jakpost.net/c/2020/05/02/2020_05_02_94245_1588395372._large.jpg" title="A Netflix Original Series" Mname="Extra-Curricular" links="https://www.netflix.com/pk/title/80990668" />
+<App imgsrc="https://cmon-files.s3.amazonaws.com/images/product/avatar/509/avatar.png" title="A Netflix Original Series" Mname="Stranger Things" links="https://www.netflix.com/pk/title/80057281" />
+  
+</>
+,document.getElementById('root')
+);
